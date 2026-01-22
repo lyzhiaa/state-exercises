@@ -5,7 +5,7 @@ export function useTimer() {
   const [isRunning, setIsRunning] = useState(false);
   const intervalRef = useRef(null);
   //   store audio id
-  const audioRef = useRef(new Audio("../public/relax.mp3"));
+  const audioRef = useRef(new Audio("/relax.mp3"));
   //   useEffect(() => {
   //     if (isRunning) {
   //       intervalRef.current = setInterval(() => {
